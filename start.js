@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DATABASE, {
+mongoose.connect("mongodb://mongo:27017/", {
   useNewUrlParser: true
 });
 
@@ -12,7 +12,7 @@ mongoose.connection
   .on('error', (err) => {
     console.log(`Connection error: ${err.message}`);
   });
-require('./models/ad');
+require('./models/points');
 const app = require('./app');
 const server = app.listen(3000, () => {
   console.log(`Express is running on port ${server.address().port}`);
