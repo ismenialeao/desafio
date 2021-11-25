@@ -34,7 +34,7 @@ legislação mostra o limite que o parâmetro deve ser encontrado
 ### **Arquitetura MVC**
 
 
-         📁 CALCULADORA
+         📁 DESAFIO
             |
             |
             |    
@@ -55,7 +55,6 @@ legislação mostra o limite que o parâmetro deve ser encontrado
             |
             |- 📄 .gitignore
             |- 📄 app.js
-            |- 📄 calculadora.js
             |- 📄 db.js
             |- 📄 docker-compose.yml
             |- 📄 Dockerfile
