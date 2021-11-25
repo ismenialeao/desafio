@@ -73,7 +73,7 @@ legislação mostra o limite que o parâmetro deve ser encontrado
 
 * Os arquivos estão na pasta raiz Desafio
 
-* O desafio roda em ambiente docker para instalar siga a instrução no link [![como instalar](https://docs.docker.com/desktop/windows/install/)].
+* O desafio roda em ambiente docker para instalar siga a instrução no link [como instalar](https://docs.docker.com/desktop/windows/install/).
 
 * Para executar o sistema use apenas o comando abaixo que monta as imagens e roda os containers em background. 
 
