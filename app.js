@@ -11,5 +11,5 @@ app.use('/', routes);
 app.set('views', path.join(__dirname, 'views'));
 app.locals.moment = require('moment');
 
-module.exports = app;
+module.exports = app
 

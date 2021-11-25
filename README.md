@@ -1,51 +1,69 @@
-## CALCULADORA PARTE 1 e PARTE 2  
-DESAFIO TECNICO CAPGEMINI
+
+## Desafio Desenvolvimento Tradicional
+
+Foi requisitada a equipe de soluções e inovações digitais uma plataforma para cadastro de dados de pontos de
+coleta. Esta plataforma irá auxiliar a equipes de Soluções para Áreas Contaminadas a fazer um melhor
+gerenciamento dos dados coletados.
+
+* O sistema deve possuir um menu contendo as seguintes opções:
+
+- [x] Cadastro de Pontos
+- [x] Cadastro de Parâmetros
+- [x] Pesquisar Pontos
+- [x] Pesquisar Pontos
+- [x] Pesquisar Pontos
+- [x] Pesquisar Pontos
+
+* A aplicação deve permitir que o usuário cadastre um ponto informando o nome e as coordenadas (X,Y),
+imputados manualmente
+
+* A aplicação deve permitir que o usuário cadastre um parâmetro informando o nome do parâmetro, o valor do
+parâmetro e data de coleta, sendo este relacionado com o ponto cadastrado
+
+* Um ponto só pode ser cadastrado uma vez
+
+* Um ponto pode ter vários parâmetros cadastrados
+
+* A função “Listar todos” deve exibir para o usuário todos os pontos cadastrados e seus respectivos
+parâmetros vinculados.
+
+* Para saber os parâmetros que violaram a legislação pode ser consultada a tabela abaixo, sendo que a
+legislação mostra o limite que o parâmetro deve ser encontrado
 
 
-
-### Parte 1
-
-Crie um script em sua linguagem de programação preferida que receba o valor investido em reais e retorne uma projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)
+### **Arquitetura MVC**
 
 
-a cada 100 pessoas que visualizam o anúncio 12 clicam nele.
-a cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
-cada compartilhamento nas redes sociais gera 40 novas visualizações.
-30 pessoas visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
-o mesmo anúncio é compartilhado no máximo 4 vezes em sequência
-(1ª pessoa -> compartilha -> 2ª pessoa -> compartilha - > 3ª pessoa -> compartilha -> 4ª pessoa)
-
-
- 
-
-### Parte 2
-Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter os seguintes dados:
-
-- [x] nome do anúncio
-
-- [x] cliente
-
-- [x] data de início
-
-- [x] data de término
-
-- [x] investimento por dia
-
- 
-
- O sistema fornecerá os relatórios de cada anúncio contendo:
-
-- [x] valor total investido
-
-- [x] quantidade máxima de visualizações
-
-- [x] quantidade máxima de cliques
-
-- [x] quantidade máxima de compartilhamentos
-
- 
-
-- [x] Os relatórios poderão ser filtrados por intervalo de tempo e cliente.
+         📁 CALCULADORA
+            |
+            |
+            |    
+            |-📁 models
+            |         |- 📄 points.js  
+            |           
+            |         
+            |-📁 routes
+            |        |- 📄 index.js
+            |
+            |
+            |-📁 views
+            |         |- 📄 abc.pug
+            |         |- 📄 form.pug
+            |         |- 📄 index.pug
+            |         |- 📄 layout.pug
+            |
+            |
+            |- 📄 .gitignore
+            |- 📄 app.js
+            |- 📄 calculadora.js
+            |- 📄 db.js
+            |- 📄 docker-compose.yml
+            |- 📄 Dockerfile
+            |- 📄 npm
+            |- 📄 package-lock.json
+            |- 📄 package.jason
+            |- 📄 README.me
+            |- 📄 start.js
 
 
 
@@ -53,23 +71,21 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 
 * Para a criar o codigo ultilizei a linguagem de programação _Javascript_ 
 
-* O arquivo com a liguagem esta com o nome e extensão _calculadora.js_
+* Os arquivos estão na pasta raiz CALCULADORA
 
-* A _calculadora.js_ para rodar o desafio devera ter instalado em sua maquina o [node](https://nodejs.org/en/) 
+* A CALCULADORA para executar devera ter instalado em sua maquina o [node](https://nodejs.org/en/) 
 
-* Segunda parte ultilizei o _Docker_ com dois containers um para rodar o _Mongo_ (banco uasado para pessistir os dados) e o segundo para rodar o _node_.
+* Ultilizei ainda o _Docker_ com dois containers um para rodar o _Mongo_ (banco uasado para pessistir os dados) e o segundo para rodar o _node_.
 
-* Para executar o sistema use apenas o comando abaixo que monta as imagens e roda os containers em background.
+* Para executar o sistema use apenas o comando abaixo que monta as imagens e roda os containers em background. 
 
  `docker-compose up -d --build`
  
- * localhost:8080 porta de acesso
- 
+* localhost:8080 porta de acesso
 
-![Captura de Tela 2021-07-06 às 01 03 12](https://user-images.githubusercontent.com/63822305/124542775-64f0d780-ddfa-11eb-9a79-c4236efd3fe0.png)
- ![Captura de Tela 2021-07-06 às 01 04 39](https://user-images.githubusercontent.com/63822305/124542705-44288200-ddfa-11eb-85e1-6bc9a613b386.png)
 
  
- 
- 
- 
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-Ismenia%20Leao-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ism%C3%AAnia-le%C3%A3o-a39942198/)](https://www.linkedin.com/in/ism%C3%AAnia-le%C3%A3o-a39942198/)  [![Gmail Badge](https://img.shields.io/badge/-ismenialeao@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ismenialeao@gmail.com)](mailto:ismenialeao@gmail.com)
+

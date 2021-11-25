@@ -32,4 +32,4 @@ const registrationSchema = new mongoose.Schema({
 	]
 });
 
-module.exports = mongoose.model('Points', registrationSchema);
+module.exports = mongoose.model('Points', registrationSchema)
