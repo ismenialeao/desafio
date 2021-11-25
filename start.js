@@ -5,6 +5,7 @@ mongoose.connect("mongodb://mongo:27017/", {
   useNewUrlParser: true
 });
 
+
 mongoose.connection
   .on('open', () => {
     console.log('Mongoose connection open');
