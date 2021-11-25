@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
 	res.render('form', {title: 'Cadastro de pontos'});
 });
 
+
 router.post('/',[
     check('name')
       	.isLength({ min: 5 })
