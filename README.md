@@ -71,17 +71,16 @@ legislação mostra o limite que o parâmetro deve ser encontrado
 
 * Para a criar o codigo ultilizei a linguagem de programação _Javascript_ 
 
-* Os arquivos estão na pasta raiz CALCULADORA
+* Os arquivos estão na pasta raiz Desafio
 
-* A CALCULADORA para executar devera ter instalado em sua maquina o [node](https://nodejs.org/en/) 
-
-* Ultilizei ainda o _Docker_ com dois containers um para rodar o _Mongo_ (banco uasado para pessistir os dados) e o segundo para rodar o _node_.
+* O desafio roda em ambiente docker para instalar siga a instrução no link [![como instalar](https://docs.docker.com/desktop/windows/install/)].
 
 * Para executar o sistema use apenas o comando abaixo que monta as imagens e roda os containers em background. 
 
  `docker-compose up -d --build`
- 
-* localhost:8080 porta de acesso
+* O node vai levantar na porta 8080, para acessa use o endereço abaixo: 
+
+localhost:8080 porta de acesso
 
 
  
