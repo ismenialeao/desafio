@@ -10,9 +10,9 @@ gerenciamento dos dados coletados.
 - [x] Cadastro de Pontos
 - [x] Cadastro de Parâmetros
 - [x] Pesquisar Pontos
-- [x] Pesquisar Pontos
-- [x] Pesquisar Pontos
-- [x] Pesquisar Pontos
+- [x] Pesquisar Parametros
+- [x] Pesquisar Parametros que violam a legislação
+- [x] Listar todos
 
 * A aplicação deve permitir que o usuário cadastre um ponto informando o nome e as coordenadas (X,Y),
 imputados manualmente
