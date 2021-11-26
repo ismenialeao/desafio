@@ -82,9 +82,12 @@ legislação mostra o limite que o parâmetro deve ser encontrado
 
 localhost:8080 porta de acesso
 
+### Previa do projeto
+
+![subir](https://user-images.githubusercontent.com/63822305/143522679-bc4eff1f-16f0-4ab0-b6ae-ede4079e0c3f.gif)
 
  
-
+ 
 
 [![Linkedin Badge](https://img.shields.io/badge/-Ismenia%20Leao-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ism%C3%AAnia-le%C3%A3o-a39942198/)](https://www.linkedin.com/in/ism%C3%AAnia-le%C3%A3o-a39942198/)  [![Gmail Badge](https://img.shields.io/badge/-ismenialeao@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ismenialeao@gmail.com)](mailto:ismenialeao@gmail.com)
 
