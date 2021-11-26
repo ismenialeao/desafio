@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  -data = data || {}
+  a(href='points') cordenadas cadastradas
+  if errors
+    ul
+      for error in errors
+        li= error.msg
+
+  form(action=".", method="POST")
+    label(for="name") Parâmetro:
+    input(
+      	type="text"
+      	id="Parâmetro"
+      	name="Parâmetro"
+    )
+    br
+    label(for="x") Valor do Parâmetro:
+    input(
+      	type="text"
+      	id="Valor do Parâmetro"
+      	name="data da coleta"
+    )
+    br
+    label(for="y") Data da coleta:
+    input(
+      	type="text"
+      	id="Valor do Parâmetro"
+      	name="data da coleta"
+    )
+    input(type="submit" value="cadastrar")
+

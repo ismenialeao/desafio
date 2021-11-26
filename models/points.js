@@ -7,7 +7,7 @@ const registrationSchema = new mongoose.Schema({
     	trim: true,
   	},
   	latitude: {
-    	type: String,
+    	type: Number,
     	trim: true,
   	},
     longitude:{
